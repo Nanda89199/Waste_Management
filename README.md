@@ -105,13 +105,12 @@ Mean ± std over three random seeds.
 
 ### Confusion matrices
 
-<table>
-  <tr>
-    <td align="center"><img src="images/cm_realwaste.png" width="100%"><br><sub>RealWaste</sub></td>
-    <td align="center"><img src="images/cm_garbage_dataset.png" width="100%"><br><sub>Garbage Dataset</sub></td>
-    <td align="center"><img src="images/cm_garbage_classification.png" width="100%"><br><sub>Garbage Classification</sub></td>
-  </tr>
-</table>
+<img width="546" height="431" alt="image" src="https://github.com/user-attachments/assets/d8cc9435-8a5b-4468-a25d-27ca4be9ee35" />
+<img width="487" height="390" alt="image" src="https://github.com/user-attachments/assets/e5c8d6d3-9bec-44da-bcd8-90a4fb9111fc" />
+<img width="552" height="446" alt="image" src="https://github.com/user-attachments/assets/e9bd43e7-7abe-479d-88dc-0407a3ec67f9" />
+
+
+
 
 ### Grad-CAM visualizations
 
