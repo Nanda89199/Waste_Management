@@ -1,0 +1,16 @@
+# Core (model + app)
+torch>=2.0
+torchvision>=0.15
+timm>=0.9          # remove if your EfficientNet comes from torchvision
+numpy
+pillow
+streamlit>=1.30
+
+# Training / evaluation / figures
+scikit-learn       # accuracy, macro F1, confusion matrix
+pandas
+matplotlib
+seaborn            # confusion-matrix heatmaps
+opencv-python-headless   # Grad-CAM overlays
+tqdm
+thop               # params / FLOPs counting
