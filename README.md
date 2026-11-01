@@ -8,7 +8,6 @@ A lightweight waste classifier built on **EfficientNet-B0 + Bottleneck Global Se
 
 **Keywords:** waste classification, sustainability, knowledge distillation, attention mechanism, EfficientNet, edge deployment
 
-> 📄 Paper link: _add after publication_ &nbsp;|&nbsp; 🌐 Live app: _add your Streamlit URL here_
 
 ---
 
