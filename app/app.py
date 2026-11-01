@@ -11,7 +11,7 @@ st.set_page_config(page_title="Waste Classifier", page_icon="♻️", layout="ce
 
 # Student checkpoints (class names are stored INSIDE each file).
 # Relative paths so it works on Streamlit Cloud, Hugging Face and locally.
-WEIGHTS_DIR = Path(__file__).parent / "weights"
+WEIGHTS_DIR = Path(__file__).parent
 WEIGHTS = {
     "GD (10 classes)": str(WEIGHTS_DIR / "student_gd_s42.pth"),
     "RealWaste (9 classes)": str(WEIGHTS_DIR / "student_realwaste_s42.pth"),
