@@ -99,13 +99,9 @@ Mean ± std over three random seeds.
 
 ### Training curves (teacher vs. student)
 
-<table>
-  <tr>
-    <td align="center"><img src="images/acc_realwaste.png" width="100%"><br><sub>RealWaste</sub></td>
-    <td align="center"><img src="images/acc_garbage_dataset.png" width="100%"><br><sub>Garbage Dataset</sub></td>
-    <td align="center"><img src="images/acc_garbage_classification.png" width="100%"><br><sub>Garbage Classification</sub></td>
-  </tr>
-</table>
+<img width="458" height="289" alt="{03A46C0A-D5D9-45BD-B0C2-4050A71AAD6C}" src="https://github.com/user-attachments/assets/30bb2462-eb69-48e1-9213-c2a9a4b8cb98" />
+<img width="475" height="289" alt="{E5D8AB70-751D-4376-A716-E11366A3AFFD}" src="https://github.com/user-attachments/assets/60350535-a595-49f3-bf58-e901d02cca4b" />
+<img width="450" height="268" alt="{F0D6B70E-0A3A-45E2-9FCE-0D247177A71E}" src="https://github.com/user-attachments/assets/269ecea2-02f5-4880-8d8e-c345693e28d3" />
 
 ### Confusion matrices
 
