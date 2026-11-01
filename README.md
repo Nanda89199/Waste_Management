@@ -31,9 +31,8 @@ A lightweight waste classifier built on **EfficientNet-B0 + Bottleneck Global Se
 
 ### BoGSA module
 
-<p align="center">
-  <img src="images/bogsa.png" alt="BoGSA module" width="85%">
-</p>
+<img width="1050" height="570" alt="image" src="https://github.com/user-attachments/assets/5ccb4302-ac5d-41f2-833f-018ce8bef500" />
+
 
 (a) 1280 → 320 channel bottleneck, multi-head self-attention over 49 spatial tokens, back to 1280, residual add. (b) Inside the attention layer: Q, K, V projections for 4 heads (d = 80 each), scaled dot-product attention, concat, linear projection.
 
