@@ -21,9 +21,8 @@ A lightweight waste classifier built on **EfficientNet-B0 + Bottleneck Global Se
 
 ## 🧭 Proposed Pipeline
 
-<p align="center">
-  <img src="images/pipeline.png" alt="Proposed pipeline" width="100%">
-</p>
+<img width="1050" height="420" alt="image" src="https://github.com/user-attachments/assets/d0dbb41f-89ca-4758-bfba-af8e79340abf" />
+
 
 1. **Input & pre-processing**: resize to 224 × 224, normalize, augment (horizontal flip, rotation, color jitter).
 2. **Lightweight student**: EfficientNet-B0 backbone → BoGSA → classification head.
@@ -48,10 +47,8 @@ A lightweight waste classifier built on **EfficientNet-B0 + Bottleneck Global Se
 
 Sources: [RealWaste](https://doi.org/10.3390/info14120633) · [Garbage Classification V2 (GD)](https://www.kaggle.com/datasets/sumn2u/garbage-classification-v2) · [Garbage Classification (12 classes)](https://www.kaggle.com/datasets/mostafaabla/garbage-classification)
 
-<p align="center">
-  <img src="images/sample_images.png" alt="Sample images" width="55%"><br>
-  <em>Sample images. Top: RealWaste · Middle: Garbage Dataset · Bottom: Garbage Classification Dataset.</em>
-</p>
+<img width="563" height="519" alt="image" src="https://github.com/user-attachments/assets/487e4359-0455-487d-a9ad-71513bf9df2b" />
+
 
 ## ⚙️ Experimental Setup
 
@@ -125,25 +122,20 @@ Mean ± std over three random seeds.
 
 *Left: original image · Middle: Grad-CAM heatmap · Right: overlay with predicted class.*
 
-<p align="center">
-  <img src="images/gradcam.png" alt="Grad-CAM" width="70%">
-</p>
+<img width="578" height="565" alt="image" src="https://github.com/user-attachments/assets/93ecdb2b-695c-4ba4-9be0-56912e187996" />
+
 
 ### t-SNE feature embeddings
 
-<p align="center">
-  <img src="images/tsne.png" alt="t-SNE" width="100%"><br>
-  <em>RealWaste · Garbage Dataset · Garbage Classification Dataset</em>
-</p>
+<img width="1000" height="274" alt="image" src="https://github.com/user-attachments/assets/9de25336-e94c-41e3-b126-721e59e6200c" />
+
 
 ## 📱💻 Web & Mobile App
 
 Upload an image or use the camera, choose the dataset/model (e.g. **GD, 10 classes**), tap **Classify**, and get the predicted class with per-class confidence. The layout is responsive, so the same app works in a desktop browser and on a phone.
 
-<p align="center">
-  <img src="images/app_screenshot.png" alt="Waste Classifier app" width="320"><br>
-  <em>Waste Classifier app (mobile view): a cantaloupe photo is predicted as <b>biological</b> (100.0%).</em>
-</p>
+<img width="282" height="516" alt="{251D166D-5975-4DF8-A63D-AAA4560E53AB}" src="https://github.com/user-attachments/assets/8b5c0b6d-91b7-4734-b961-36bbf9e866cd" />
+
 
 ### Run locally
 
